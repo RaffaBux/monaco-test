@@ -1,0 +1,21 @@
+{
+    "name": "monaco-test",
+    "version": "0.0.1",
+    "author": {
+        "name": "RaffaBux"
+    },
+    "type": "commonjs",
+    "bin": "dist/index.js",
+    "scripts": {
+        "build": "rm -rf ./dist && tsc --project ./tsconfig.json && tsc-alias -p ./tsconfig.json",
+        "start": "npm run build && node dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RaffaBux/monaco-test.git"
+    },
+    "dependencies": {
+        "monaco-editor": "^0.52.0",
+        "typescript": "^5.6.3"
+    }
+}
