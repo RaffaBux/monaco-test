@@ -1,4 +1,3 @@
-import Editor from "./components/Editor/Editor";
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
 import React from "react";
@@ -10,6 +9,5 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <Editor />
   </React.StrictMode>
 );
